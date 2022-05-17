@@ -1,0 +1,266 @@
+* {
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+ }
+
+ .logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1c0c5b;
+
+}
+
+.menu{
+    
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #DBD0C0;
+    z-index: 1;
+    border-bottom: 1px solid  #1c0c5b ;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav ul li {
+   float: left;
+
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding: auto;
+}
+
+
+
+.kolom .deskripsi {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'comic sans ms';
+    color: #1c0c5b; 
+    
+}
+
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 100;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #1c0c5b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+   background: #334756;
+   border-radius: 20px;
+   margin-top: 20px; 
+   padding: 15px 20px 15px 20px;
+   color: white;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background:  #0F00FF;
+    text-decoration: none;
+}
+
+a.tbl-pink{
+   background: #334756;
+    border-radius: 20px;
+    margin-top: 20px; 
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;   
+}
+a.tbl-pink:hover{
+   background: #0F00FF;
+    text-decoration: none;
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: justify
+    ;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:  #1c0c5b;
+    width: 100%;
+    line-height: 50px;
+
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #F56FAD;
+}
+
+.partners-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partners {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partners img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#contact {
+    background: grey;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0px;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .kartu-tutor  {
+        width: 50%;
+    }
+
+    .kartu-partners  {
+        width: 50%;
+
+    }
+}
